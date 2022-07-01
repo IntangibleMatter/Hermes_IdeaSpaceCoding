@@ -2,7 +2,7 @@
 
 [ext_resource path="res://objects/managers/CameraChanger.gd" type="Script" id=1]
 
-[node name="CameraChanger" type="Area2D"]
+[node name="CameraChanger" type="Area2D" groups=["CameraChanger"]]
 collision_mask = 3
 script = ExtResource( 1 )
 
